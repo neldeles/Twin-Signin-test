@@ -1,4 +1,18 @@
 {
+  "babelMacros": {
+    "twin": {
+      "config": "./tailwind.config.js",
+      "preset": "styled-components",
+      "styled": {
+        "import": "default",
+        "from": "styled-components"
+      },
+      "css": {
+        "import": "css",
+        "from": "styled-components"
+      }
+    }
+  },
   "name": "twin-test-install",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +23,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.2.1",
+    "tailwindcss": "^2.0.4",
+    "twin.macro": "^2.3.1",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
